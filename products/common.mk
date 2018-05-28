@@ -135,11 +135,16 @@ PRODUCT_PACKAGES += \
     QStileOreoCircleTrim \
     QStileOreoSquircleTrim
 
-
+# ThemesDark
 PRODUCT_PACKAGES += \
     SettingsDarkTheme \
     SystemDarkTheme \
     SystemUIDarkTheme
+
+# ThemesBlack
+PRODUCT_PACKAGES += \
+    SettingsBlackTheme \
+    SystemBlackTheme
 
  # Overlays
 PRODUCT_PACKAGES += \
