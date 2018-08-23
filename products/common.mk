@@ -39,7 +39,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES := \
 
 # Common overlay
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/nitrogen/overlay/common
-DEVICE_PACKAGE_OVERLAYS += vendor/nitrogen/overlay/common
+DEVICE_PACKAGE_OVERLAYS += \
+vendor/nitrogen/overlay/common \
+vendor/nitrogen/overlay/themes
 
 # Fix Dialer
 PRODUCT_COPY_FILES +=  \
