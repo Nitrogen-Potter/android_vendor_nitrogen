@@ -135,3 +135,35 @@ PRODUCT_PACKAGES += \
     QStileOreoCircleTrim \
     QStileOreoSquircleTrim
 
+
+PRODUCT_PACKAGES += \
+    SettingsDarkTheme \
+    SystemDarkTheme \
+    SystemUIDarkTheme
+
+ # Overlays
+PRODUCT_PACKAGES += \
+    AmberAccent \
+    BlackAccent \
+    BlueAccent \
+    BlueGreyAccent \
+    BrownAccent \
+    CyanAccent \
+    DeepOrangeAccent \
+    DeepPurpleAccent \
+    DuiDark \
+    GreenAccent \
+    GreyAccent \
+    IndigoAccent \
+    LightBlueAccent \
+    LightGreenAccent \
+    LimeAccent \
+    OrangeAccent \
+    PinkAccent \
+    PurpleAccent \
+    RedAccent \
+    SettingsDark \
+    SystemDark \
+    TealAccent \
+    YellowAccent \
+    WhiteAccent
