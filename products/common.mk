@@ -119,4 +119,13 @@ PRODUCT_PACKAGES += \
     QStileCircleTrim \
     QStileDefault \
     QStileDualToneCircle \
-    QStileSquircleTrim
+    QStileSquircleTrim \
+    QStileSquircleTrim \
+    QStileAttemptMountain \
+    QStileCircleDualTone \
+    QStileCircleGradient \
+    QStileDottedCircle \
+    QStileNinja \
+    QStilePokesign \
+    QStileWavey
+
