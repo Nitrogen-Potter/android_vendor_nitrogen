@@ -107,3 +107,7 @@ PRODUCT_COPY_FILES += \
 
 # Boot animations
 $(call inherit-product-if-exists, vendor/nitrogen/products/bootanimation.mk)
+
+# SubstratumSignature Package
+PRODUCT_COPY_FILES += \
+    vendor/nitrogen/prebuilt/common/app/SubstratumSignature.apk:system/priv-app/SubstratumSignature/SubstratumSignature.apk
