@@ -84,7 +84,8 @@ PRODUCT_PACKAGES += \
     OmniRecord \
     Stk \
     Terminal \
-    WeatherClient
+    WeatherClient \
+    NOS-Fonts
 
 # CAF
 # Telephony packages
