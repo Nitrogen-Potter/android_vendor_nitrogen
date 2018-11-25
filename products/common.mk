@@ -22,8 +22,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     drm.service.enabled=true \
     net.tethering.noprovisioning=true \
     persist.sys.dun.override=0 \
-    ro.build.selinux=1 \
-    ro.adb.secure=0 \
+    ro.build.selinux=0 \
+    ro.adb.secure=1 \
     ro.setupwizard.rotation_locked=true \
     ro.opa.eligible_device=true \
     persist.sys.disable_rescue=true \
@@ -33,9 +33,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     org.nitrogen.fingerprint=$(PLATFORM_VERSION)-$(BUILD_ID)-$(NITROGEN_BUILD_DATE)
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES := \
-    ro.adb.secure=0 \
-    ro.secure=0 \
-    persist.service.adb.enable=1
+    ro.adb.secure=1 \
+    ro.secure=1 \
+    persist.service.adb.enable=0
 
 # Common overlay
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/nitrogen/overlay/common
